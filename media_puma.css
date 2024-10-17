@@ -2,52 +2,52 @@
     
     
     .empresa-nombre {    
-        font-size: 50px; /* Reduce el tamaño para móviles */
+        font-size: 50px; 
     }
     
     .descripcion {
-        font-size: 14px; /* Ajusta el tamaño para móviles */
+        font-size: 14px;  
     }
     
     .logo {
-         width: 120px; /* Reduce el tamaño del logo */
+         width: 120px; 
     }
     
    .botones {
-        flex-direction: column; /* Cambia a columna para móviles */
-        gap: 10px; /* Espacio entre botones en vertical */
+        flex-direction: column; 
+        gap: 10px; 
     }
     
     
 
     .main-content {
-        flex-direction: column; /* Cambia la dirección del contenido principal */
+        flex-direction: column; 
     }
 
     .izquierda {
-        width: 100%; /* Asegura que la columna izquierda ocupe todo el ancho */
-        border-right: none; /* Elimina el borde derecho */
+        width: 100%; 
+        border-right: none; 
     }
 
     .derecha {
-        width: 100%; /* Asegura que la columna derecha ocupe todo el ancho */
+        width: 100%; 
     }
 
     .cuadro {
-        height: 120px; /* Reduce la altura de los cuadros */
-        font-size: 20px; /* Reduce el tamaño de la fuente */
+        height: 120px; 
+        font-size: 20px; 
     }
 
     .catalogo h2 {
-        font-size: 36px; /* Reduce el tamaño del título del catálogo */
+        font-size: 36px; 
     }
 
     .footer-text {
-        font-size: 12px; /* Reduce el tamaño del texto del pie de página */
+        font-size: 12px; 
     }
 
     .footer-botones button {
-        padding: 8px 12px; /* Ajusta el padding de los botones del pie de página */
-        font-size: 14px; /* Reduce el tamaño de la fuente */
+        padding: 8px 12px; 
+        font-size: 14px; 
     }
 }
