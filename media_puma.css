@@ -1,0 +1,53 @@
+@media (max-width: 768px) {
+    
+    
+    .empresa-nombre {    
+        font-size: 50px; /* Reduce el tamaño para móviles */
+    }
+    
+    .descripcion {
+        font-size: 14px; /* Ajusta el tamaño para móviles */
+    }
+    
+    .logo {
+         width: 120px; /* Reduce el tamaño del logo */
+    }
+    
+   .botones {
+        flex-direction: column; /* Cambia a columna para móviles */
+        gap: 10px; /* Espacio entre botones en vertical */
+    }
+    
+    
+
+    .main-content {
+        flex-direction: column; /* Cambia la dirección del contenido principal */
+    }
+
+    .izquierda {
+        width: 100%; /* Asegura que la columna izquierda ocupe todo el ancho */
+        border-right: none; /* Elimina el borde derecho */
+    }
+
+    .derecha {
+        width: 100%; /* Asegura que la columna derecha ocupe todo el ancho */
+    }
+
+    .cuadro {
+        height: 120px; /* Reduce la altura de los cuadros */
+        font-size: 20px; /* Reduce el tamaño de la fuente */
+    }
+
+    .catalogo h2 {
+        font-size: 36px; /* Reduce el tamaño del título del catálogo */
+    }
+
+    .footer-text {
+        font-size: 12px; /* Reduce el tamaño del texto del pie de página */
+    }
+
+    .footer-botones button {
+        padding: 8px 12px; /* Ajusta el padding de los botones del pie de página */
+        font-size: 14px; /* Reduce el tamaño de la fuente */
+    }
+}
